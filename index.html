@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Anime DB</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header__search">
+                <form action="#">
+                    <input type="text" placeholder="Поиск" />
+                </form>
+            </div>
+            <div class="header__logo">
+                <img src="icons/Logotype.svg" alt="logo" />
+            </div>
+        </header>
+        <main class="promo">
+            <div class="promo__menu">
+                <nav class="promo__menu-list">
+                    <ul>
+                        <li>
+                            <a
+                                class="promo__menu-item promo__menu-item_active"
+                                href="#"
+                                >Аниме</a
+                            >
+                        </li>
+                        <li><a class="promo__menu-item" href="#">Манга</a></li>
+                        <li><a class="promo__menu-item" href="#">OVA</a></li>
+                        <li><a class="promo__menu-item" href="#">Ранобэ</a></li>
+                        <li>
+                            <a class="promo__menu-item" href="#">Трейлеры</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="promo__content">
+                <div class="slider-container">
+                    <ul class="slider-container__list"></ul>
+                </div>
+                <div class="arrows">
+                    <a class="arrow" id="back"
+                        ><img
+                            src="http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-left.png"
+                            alt="Back"
+                    /></a>
+                    <a class="arrow" id="next"
+                        ><img
+                            src="http://pvbk.spb.ru/inc/carousel/ant-files/ant-arrow-right.png"
+                            alt="Next"
+                    /></a>
+                </div>
+                <div class="promo__interactive">
+                    <div>
+                        <div class="promo__interactive-title">
+                            ПРОСМОТРЕННЫЕ АНИМЕ
+                        </div>
+                        <ul class="promo__interactive-list">
+                            <li class="promo__interactive-item">
+                                НАРУТО
+                                <div class="delete"></div>
+                            </li>
+                            <li class="promo__interactive-item">
+                                БЛИЧ
+                                <div class="delete"></div>
+                            </li>
+                            <li class="promo__interactive-item">
+                                АТАКА ТИТАНОВ
+                                <div class="delete"></div>
+                            </li>
+                            <li class="promo__interactive-item">
+                                ЭТОТ ЗАМЕЧАТЕЛЬНЫЙ МИР
+                                <div class="delete"></div>
+                            </li>
+                            <li class="promo__interactive-item">
+                                КЛИНОК РАССЕКАЮЩИЙ ДЕМОНОВ
+                                <div class="delete"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <form class="add">
+                            <div class="promo__interactive-title">
+                                ДОБАВИТЬ НОВОЕ АНИМЕ
+                            </div>
+                            <span>Введите название Аниме</span>
+                            <input
+                                class="adding__input"
+                                type="text"
+                                placeholder="Что уже посмотрено...?"
+                            />
+                            <span>Сделать его любимым?</span>
+                            <input type="checkbox" />
+                            <span class="yes">Да!</span>
+                            <button>Подтвердить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="promo__adv">
+                <div class="promo__adv-title">Популярное:</div>
+                <div class="promo__adv-first"><span>Магическая Битва</span></div>
+                <div class="promo__adv-second"><span>Ван-Пис</span></div>
+                <div class="promo__adv-third"><span>Тетрадь Смерти</span></div>
+                <div class="promo__adv-fourth"><span>Атака Титанов</span></div>
+                <div class="promo__adv-fifth"><span>Коносуба</span></div>
+                <!-- <img src="" alt="some picture">
+            <img src="img/content_2.jpg" alt="some picture">
+            <img src="img/content_3.png" alt="some picture"> -->
+            </div>
+        </main>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
