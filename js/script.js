@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
     ];
 
-    let sliderContainer = document.querySelector('.slider-container'),
+    const sliderContainer = document.querySelector('.slider-container'),
         sliderList = document.querySelector('.slider-container__list'),
         nextButton = document.getElementById('next'),
         backButton = document.getElementById('back');
